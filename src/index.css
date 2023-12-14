@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ############# LOGO ############# */
+.logo {
+  font-family: "Kaushan Script", cursive;
+}
+
+@layer components {
+  .container-max {
+    @apply container max-w-[1080px] w-[90%] mx-auto;
+  }
+  .container-md {
+    @apply container max-w-[768px] w-[90%] mx-auto;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
