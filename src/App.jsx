@@ -1,3 +1,4 @@
+import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <div>
       {/* GO LALA */}
       <Navbar />
+      <Footer />
     </div>
   );
 };
