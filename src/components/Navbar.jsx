@@ -6,7 +6,7 @@ import {
   MagnifyingGlassIcon,
   MapPinIcon,
   BookOpenIcon,
-  ShoppingBagIcon,
+  ShoppingCartIcon,
 } from "@heroicons/react/24/solid";
 import Logo from "./Logo.jsx";
 
@@ -71,10 +71,10 @@ const Navbar = () => {
               href="#"
               className="p-2 relative lg:px-4 hover:bg-gray-50 rounded-md flex items-center gap-2"
             >
-              <ShoppingBagIcon className="w-4 h-4 text-gray-700" />{" "}
+              <ShoppingCartIcon className="w-4 h-4 text-gray-700" />{" "}
               <p className="hidden lg:block">Cart</p>
               {
-                <p className="absolute -top-1 -right-1 bg-orange-500 text-white flex justify-center items-center w-5 h-5 text-xs rounded-full">
+                <p className="absolute -top-1 -right-1 bg-primary text-white flex justify-center items-center w-5 h-5 text-xs rounded-full">
                   2
                 </p>
               }
@@ -82,7 +82,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="mobile-nav shadow-lg transition-all lg:hidden absolute top-full right-0 bg-white h-screen p-4 px-8">
+        <div className="mobile-nav hidden shadow-lg transition-all lg:hidden absolute top-full right-0 bg-white h-screen p-4 px-8">
           <>
             <ul className="text-zinc-700 space-y-4">
               <li>
@@ -125,10 +125,10 @@ const Navbar = () => {
                   href="#"
                   className="p-2 relative lg:px-4 hover:bg-gray-50 rounded-md flex items-center gap-2"
                 >
-                  <ShoppingBagIcon className="w-4 h-4 text-gray-700" />{" "}
+                  <ShoppingCartIcon className="w-4 h-4 text-gray-700" />{" "}
                   <p>Cart</p>
                   {
-                    <p className="absolute -top-1 -right-1 bg-orange-500 text-white flex justify-center items-center w-5 h-5 text-xs rounded-full">
+                    <p className="absolute -top-1 -right-1 bg-primary text-white flex justify-center items-center w-5 h-5 text-xs rounded-full">
                       2
                     </p>
                   }

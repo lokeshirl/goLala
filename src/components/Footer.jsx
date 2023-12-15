@@ -8,7 +8,7 @@ const Footer = () => {
         href="https://github.com/lokeshirl"
         target={"_blank"}
         rel="noopener noreferrer"
-        className="text-orange-500"
+        className="text-primary"
       >
         Lokeshirl & Himanshu{" "}
         <HeartIcon className="inline-block h-4 w-4 text-red-500" />
